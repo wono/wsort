@@ -8,7 +8,7 @@
 #include "main.h"
 
 int main (int argc, char *argv[]) {
-	Records rs;
+    Records rs;
     records_read (&rs);
     if (IS_VALID_ARGV (argc, argv)) {
         Cmptr c = GET_OPTION_FOR_COMPARE (argc, argv);
