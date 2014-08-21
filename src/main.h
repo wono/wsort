@@ -11,11 +11,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include <wmemory/wmalloc.h>
-
 #include "cmp1.h"
 #include "cmp2.h"
 #include "record.h"
+#include "util/wmalloc.h"
 
 #define _is_valid_option( OP )\
 ( OP[0] == '-' || OP[0] == '+' ) && \

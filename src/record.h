@@ -10,11 +10,11 @@
 
 #include <stdio.h>
 
-#include <wlib/wassert.h>
-#include <wmemory/wmalloc.h>
-#include <wstring/wstring_copy.h>
-#include <wstring/wstring_length.h>
-#include <wstring/wstring_tolower.h>
+#include "util/wassert.h"
+#include "util/wmalloc.h"
+#include "util/wstring_copy.h"
+#include "util/wstring_length.h"
+#include "util/wstring_tolower.h"
 
 typedef struct Name     Name;
 typedef struct Record   Record;
