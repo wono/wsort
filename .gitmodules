@@ -1,0 +1,3 @@
+[submodule "src/wlib"]
+	path = src/wlib
+	url = https://github.com/wono/wlib
