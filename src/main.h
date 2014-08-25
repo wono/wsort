@@ -1,8 +1,8 @@
 /*
- *      last modified:  2014/08/21
+ *      last modified:  2014/08/25
  *      first worte:    2013/11/24
  *
- *      wono (a.k.a wonho)
+ *      Wonho Lim
  */
 
 #ifndef _main_h_
@@ -14,7 +14,7 @@
 #include "cmp1.h"
 #include "cmp2.h"
 #include "record.h"
-#include "util/wmalloc.h"
+#include "wlib/wmalloc.h"
 
 #define _is_valid_option( OP )\
 ( OP[0] == '-' || OP[0] == '+' ) && \

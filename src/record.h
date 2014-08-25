@@ -1,8 +1,8 @@
 /*
- *      last modified:  2014/08/21
+ *      last modified:  2014/08/25
  *      wrote:          2013/11/22
  *
- *      wono (a.k.a wonho)
+ *      Wonho Lim
  */
  
 #ifndef _record_h_
@@ -10,11 +10,11 @@
 
 #include <stdio.h>
 
-#include "util/wassert.h"
-#include "util/wmalloc.h"
-#include "util/wstring_copy.h"
-#include "util/wstring_length.h"
-#include "util/wstring_tolower.h"
+#include "wlib/wassert.h"
+#include "wlib/wmalloc.h"
+#include "wlib/wstring_copy.h"
+#include "wlib/wstring_length.h"
+#include "wlib/wstring_tolower.h"
 
 typedef struct Name     Name;
 typedef struct Record   Record;
